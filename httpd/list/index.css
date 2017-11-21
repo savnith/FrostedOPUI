@@ -1,0 +1,111 @@
+*
+{
+    box-sizing: border-box !important;
+}
+body, html
+{
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    background: black;
+}
+.linkcontainer
+{
+    padding: 5px;
+    color: white;
+    position: absolute;
+    font-family: sans-serif;
+    text-align: center;
+    transition: 1s;
+    cursor: pointer !important;
+}
+.linkcontainer:nth-child(1)
+{
+    background-color: #BA930B;
+}
+.linkcontainer:nth-child(2)
+{
+    background-color: #08853E;
+}
+.linkcontainer:nth-child(3)
+{
+    background-color: #BA2F0B;
+}
+.linkcontainer:nth-child(4)
+{
+    background-color: #211881;
+}
+.linkcontainer:not(:hover)
+{
+    filter: grayscale(35%) brightness(70%);
+}
+@media all and (orientation:landscape)
+{
+    .linkcontainer
+    {
+        width: calc(100%/2);
+        display: block;
+        height: 100%;
+        font-size: 1.5vw;
+    }
+    .linkcontainer:nth-child(1)
+    {
+        left: calc(100%/2 * 0);
+    }
+    .linkcontainer:nth-child(2)
+    {
+        left: calc(100%/2 * 1);
+    }
+    .linkcontainer h1
+    {
+        margin: -5px;
+        margin-bottom: 10px;
+        line-height: 15vh;
+        font-size: 2vw;
+        height: 15vh;
+        background-color: rgba(0,0,0,0.45);
+    }
+    .linkcontainer .fa
+    {
+        width: 100%;
+        font-size: 22.5vw;
+        position: absolute;
+        bottom: 5px;
+        left: 0px;
+    }
+}
+@media all and (orientation:portrait)
+{
+    .linkcontainer
+    {
+        width: 100%;
+        display: block;
+        height: calc(100% / 2);
+        font-size: 1.5vh;
+    }
+    .linkcontainer:nth-child(1)
+    {
+        top: calc(100%/2 * 0);
+    }
+    .linkcontainer:nth-child(2)
+    {
+        top: calc(100%/2 * 1);
+    }
+    .linkcontainer h1
+    {
+        margin: -5px;
+        margin-bottom: 10px;
+        font-size: 2vh;
+        height: 5vh;
+        line-height: 5vh;
+        background-color: rgba(0,0,0,0.45);
+    }
+    .linkcontainer .fa
+    {
+        width: 100%;
+        font-size: 17.5vw;
+        position: absolute;
+        bottom: 5px;
+        left: 0px;
+    }
+}
