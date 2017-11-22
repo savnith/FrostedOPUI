@@ -3,7 +3,7 @@
 # FrostedOPUI Configuration File
 
 $pageTitle = "FrostedOP - Portal";
-$pageIcon = "https://savnith.swrv.life/yhg4jfe.jpg";
+$pageIcon = "https://savnith.swrv.life/lo34kaw.png";
 
 # Index Page Customizable Containers
 # FontAwesome Images (more info here: http://fontawesome.io/icons/)
@@ -40,4 +40,4 @@ $sectionTwoImage = "fa fa-archive";
 # Meta Information
 $metaTitle = "FrostedOP - Portal Page";
 $metaDesc = "The frostedop server portal page.";
-$metaIcon = "https://savnith.swrv.life/yhg4jfe.jpg";
+$metaIcon = "https://savnith.swrv.life/lo34kaw.png";
