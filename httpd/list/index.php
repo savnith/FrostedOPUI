@@ -22,7 +22,7 @@
             <div onclick="window.location.href = 'http://mc.frostedop.net:4040/staff'" class="linkcontainer" id="adminworlds">
                 <h1>Staff Members</h1>
                 Shows all the admins on the FrostedOP server.
-                <span class="fa fa-user"/>
+                <span class="fa fa-users"/>
             </div>
         </div>
     </body>
